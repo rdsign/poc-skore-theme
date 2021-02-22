@@ -1,0 +1,71 @@
+html {
+  font-size: calc(((1vw + 1vh) / 14) + 8px);
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  border: 0;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  user-select: none;
+}
+
+img {
+  user-select: none;
+}
+
+/* 4K */
+@media all and (min-width: 2800px) and (max-width: 3840px) and (orientation: landscape) {
+  html {
+    font-size: calc(((1vw + 1vh) / 8) + 12px);
+  }
+}
+
+/* 2K */
+@media all and (min-width: 2200px) and (max-width: 2560px) and (orientation: landscape) {
+  html {
+    font-size: calc(((1vw + 1vh) / 12) + 10px);
+  }
+}
+
+/* TABLET + NOTE */
+@media all and (min-width: 728px) and (max-width: 1366px) {
+  html {
+    font-size: calc(((1vw + 1vh) / 8) + 6px);
+  }
+}
+
+/* large devices */
+@media all and (min-width: 501px) and (max-width: 727px) {
+  html {
+    font-size: calc(((1vw + 1vh) / 18) + 5px);
+  }
+}
+
+/* medium devices */
+@media all and (min-width: 321px) and (max-width: 500px) {
+  html {
+    font-size: calc(((1vw + 1vh) / 16) + 4px);
+  }
+}
+
+/* small devices */
+@media all and (min-width: 260px) and (max-width: 320px) {
+  html {
+    font-size: calc(((1vw + 1vh) / 12) + 3px);
+  }
+}
